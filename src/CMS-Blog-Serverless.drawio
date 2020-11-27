@@ -1,4 +1,4 @@
-<mxfile modified="2020-11-27T17:04:05.977Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="Aws2J0NhZsVVxHBfJysj" version="13.10.4" type="github">
+<mxfile modified="2020-11-27T17:04:32.994Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="3U8T_EWVNNFGmW9NsnS8" version="13.10.4" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="2240" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -326,7 +326,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oRE_mYbqo-P45fYyQHj--69" value="&lt;b&gt;Lambda &lt;/b&gt;: Add Route53 subdomain" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" vertex="1" parent="1">
-          <mxGeometry x="760" y="630" width="58" height="58" as="geometry" />
+          <mxGeometry x="730" y="600" width="88" height="88" as="geometry" />
         </mxCell>
         <mxCell id="oRE_mYbqo-P45fYyQHj--83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oRE_mYbqo-P45fYyQHj--70" target="oRE_mYbqo-P45fYyQHj--81">
           <mxGeometry relative="1" as="geometry" />
