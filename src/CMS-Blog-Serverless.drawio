@@ -1,6 +1,6 @@
-<mxfile modified="2020-11-27T16:49:43.284Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="W_5mwq3NkXwX5o9lOPbm" version="13.10.4" type="github">
+<mxfile modified="2020-11-27T16:51:21.215Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="2bZWOUgpbUT9Ko5PJlx7" version="13.10.4" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="2686" dy="812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1927" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -171,23 +171,24 @@
         </mxCell>
         <mxCell id="oRE_mYbqo-P45fYyQHj--51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oRE_mYbqo-P45fYyQHj--45" target="oRE_mYbqo-P45fYyQHj--50">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1065" y="543.5" as="sourcePoint" />
+            <mxPoint x="1282" y="724.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="960" y="489" />
-              <mxPoint x="960" y="550" />
-              <mxPoint x="885" y="550" />
+              <mxPoint x="1180" y="489" />
+              <mxPoint x="1180" y="695" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="oRE_mYbqo-P45fYyQHj--52" value="Push to queue" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oRE_mYbqo-P45fYyQHj--51">
           <mxGeometry x="-0.2126" y="2" relative="1" as="geometry">
-            <mxPoint y="1" as="offset" />
+            <mxPoint y="76.33" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oRE_mYbqo-P45fYyQHj--45" value="&lt;b&gt;Lambda : &lt;/b&gt;Add Baking job" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" vertex="1" parent="1">
           <mxGeometry x="1040" y="465" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="oRE_mYbqo-P45fYyQHj--50" value="SQS : Pages to Bake" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#F34482;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;" vertex="1" parent="1">
-          <mxGeometry x="846" y="666" width="74" height="74" as="geometry" />
+          <mxGeometry x="1305" y="658" width="74" height="74" as="geometry" />
         </mxCell>
         <mxCell id="oRE_mYbqo-P45fYyQHj--57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oRE_mYbqo-P45fYyQHj--53" target="oRE_mYbqo-P45fYyQHj--54">
           <mxGeometry relative="1" as="geometry" />
@@ -201,7 +202,12 @@
           <mxGeometry x="999" y="610" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="oRE_mYbqo-P45fYyQHj--55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oRE_mYbqo-P45fYyQHj--54" target="oRE_mYbqo-P45fYyQHj--50">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1030" y="720" />
+              <mxPoint x="1030" y="720" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="oRE_mYbqo-P45fYyQHj--56" value="Pull message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oRE_mYbqo-P45fYyQHj--55">
           <mxGeometry x="-0.2126" y="4" relative="1" as="geometry">
@@ -209,7 +215,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oRE_mYbqo-P45fYyQHj--54" value="&lt;b&gt;Lambda : &lt;/b&gt;Add Baking job" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" vertex="1" parent="1">
-          <mxGeometry x="1112.5" y="669" width="68" height="68" as="geometry" />
+          <mxGeometry x="890" y="680" width="68" height="68" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
