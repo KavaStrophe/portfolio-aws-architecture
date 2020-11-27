@@ -1,4 +1,4 @@
-<mxfile modified="2020-11-27T16:35:05.770Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="u2y5ySvyHySRodRL63Nq" version="13.10.4" type="github">
+<mxfile modified="2020-11-27T16:36:04.622Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="D3sUJZpkO0LOwjDlHl6s" version="13.10.4" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="2469" dy="1523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -30,6 +30,9 @@
         </mxCell>
         <mxCell id="oRE_mYbqo-P45fYyQHj--12" value="&lt;b&gt;Github : &lt;/b&gt;Admin Front" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.github" vertex="1" parent="1">
           <mxGeometry x="1670" y="640" width="75" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="oRE_mYbqo-P45fYyQHj--13" value="The blog templates are components of the administration front-end. It allows to easily implement a realistic live editor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="760" width="217.5" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
