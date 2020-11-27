@@ -1,4 +1,4 @@
-<mxfile modified="2020-11-27T16:36:58.802Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="wGMx0QfF7wEsxHuq2DQF" version="13.10.4" type="github">
+<mxfile modified="2020-11-27T16:37:24.442Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="TIkZP5zIfpl08zW15dU4" version="13.10.4" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="2469" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="-390" y="180" width="490" height="730" as="geometry" />
         </mxCell>
         <mxCell id="oRE_mYbqo-P45fYyQHj--2" value="AWS Cloud - API" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=0;" vertex="1" parent="1">
-          <mxGeometry x="780" y="183.5" width="360" height="230" as="geometry" />
+          <mxGeometry x="780" y="183.5" width="360" height="386.5" as="geometry" />
         </mxCell>
         <mxCell id="oRE_mYbqo-P45fYyQHj--3" value="AWS Cloud - Website Baking" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=0;" vertex="1" parent="1">
           <mxGeometry x="780" y="590" width="710" height="230" as="geometry" />
@@ -26,13 +26,13 @@
           <mxGeometry x="585" y="910" width="45" height="63" as="geometry" />
         </mxCell>
         <mxCell id="oRE_mYbqo-P45fYyQHj--11" value="&lt;b&gt;Github : &lt;/b&gt;API Repository" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.github" vertex="1" parent="1">
-          <mxGeometry x="1049" y="450" width="75" height="75" as="geometry" />
+          <mxGeometry x="1230" y="460" width="75" height="75" as="geometry" />
         </mxCell>
         <mxCell id="oRE_mYbqo-P45fYyQHj--12" value="&lt;b&gt;Github : &lt;/b&gt;Admin Front" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.github" vertex="1" parent="1">
-          <mxGeometry x="1210" y="450" width="75" height="75" as="geometry" />
+          <mxGeometry x="1391" y="460" width="75" height="75" as="geometry" />
         </mxCell>
         <mxCell id="oRE_mYbqo-P45fYyQHj--13" value="The blog templates are components of the administration front-end. It allows to easily implement a realistic live editor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="477.5" width="217.5" height="20" as="geometry" />
+          <mxGeometry x="1491" y="487.5" width="217.5" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
