@@ -1,14 +1,14 @@
-<mxfile modified="2020-11-27T16:11:16.718Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="rueDIzz5JHZmgDKeruPl" version="13.10.4" type="github">
+<mxfile modified="2020-11-27T16:15:34.254Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="bYng9oWvQy2RaBJ4pmO1" version="13.10.4" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="2390" dy="1471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ZVcsY9Rh3zBBVXqX1Ra8-9" value="AWS China" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=0;" vertex="1" parent="1">
-          <mxGeometry y="20" width="1060" height="560" as="geometry" />
+          <mxGeometry y="20" width="1060" height="640" as="geometry" />
         </mxCell>
-        <mxCell id="ZVcsY9Rh3zBBVXqX1Ra8-1" value="&lt;h1&gt;README&lt;br&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;L&#39;architecture présentée omet certains détails par mesure de sécurité. &lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;De plus elle a été développée pour AWS China qui présente de nombreuses différences avec AWS Global.&lt;br&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-610" y="-200" width="390" height="190" as="geometry" />
+        <mxCell id="ZVcsY9Rh3zBBVXqX1Ra8-1" value="&lt;h1&gt;README&lt;/h1&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;The following architecture does not show some details (Bastion, IAM deployments, etc.) because of security concerns.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Moreover this architecture has been design for AWS China that is slightly different from AWS Global.&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="-200" width="390" height="260" as="geometry" />
         </mxCell>
         <mxCell id="ZVcsY9Rh3zBBVXqX1Ra8-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="ZVcsY9Rh3zBBVXqX1Ra8-3" target="ZVcsY9Rh3zBBVXqX1Ra8-4">
           <mxGeometry relative="1" as="geometry" />
@@ -176,7 +176,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZVcsY9Rh3zBBVXqX1Ra8-41" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.codebuild;" vertex="1" parent="1">
+        <mxCell id="ZVcsY9Rh3zBBVXqX1Ra8-41" value="&lt;b&gt;CodeBuild&lt;/b&gt;" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.codebuild;" vertex="1" parent="1">
           <mxGeometry x="660" y="450" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="ZVcsY9Rh3zBBVXqX1Ra8-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="ZVcsY9Rh3zBBVXqX1Ra8-42" target="ZVcsY9Rh3zBBVXqX1Ra8-36">
@@ -226,7 +226,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZVcsY9Rh3zBBVXqX1Ra8-42" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.codebuild;" vertex="1" parent="1">
+        <mxCell id="ZVcsY9Rh3zBBVXqX1Ra8-42" value="&lt;b&gt;CodeBuild&lt;/b&gt;" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.codebuild;" vertex="1" parent="1">
           <mxGeometry x="660" y="130" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="ZVcsY9Rh3zBBVXqX1Ra8-43" value="AWS Web Application Firewall not available on AWS China" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -258,7 +258,10 @@
           <mxGeometry x="629" y="90" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ZVcsY9Rh3zBBVXqX1Ra8-54" value="&lt;div&gt;Deploy serverless application on lambda + associated resources (roles, dbs, etc.)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="629" y="230" width="140" height="20" as="geometry" />
+          <mxGeometry x="629" y="260" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVcsY9Rh3zBBVXqX1Ra8-72" value="ReactJS compilation, upload on S3 and then invalidate the index.html on the cloudfront to force user to fetch new bundle (random name generated at each build)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="580" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
