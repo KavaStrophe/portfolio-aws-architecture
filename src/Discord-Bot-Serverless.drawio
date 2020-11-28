@@ -1,4 +1,4 @@
-<mxfile modified="2020-11-28T04:04:11.376Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="3J4ItuMFIlrdyuNLaETg" version="13.10.4" type="github">
+<mxfile modified="2020-11-28T04:11:09.505Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="BHdOz9Hnfptz-aoy6QJ4" version="13.10.4" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="2240" dy="1400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -13,6 +13,11 @@
               <mxPoint x="530" y="344" />
               <mxPoint x="448" y="344" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnNeL-RazSUmIN3Nqa5R-65" value="Interact with API" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TnNeL-RazSUmIN3Nqa5R-31">
+          <mxGeometry x="-0.2898" relative="1" as="geometry">
+            <mxPoint x="-19.41" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TnNeL-RazSUmIN3Nqa5R-8" value="Cluster Fargate" style="fillColor=#ffe6cc;strokeColor=#d79b00;dashed=0;verticalAlign=top;fontStyle=0;" vertex="1" parent="1">
@@ -127,6 +132,14 @@
         </mxCell>
         <mxCell id="TnNeL-RazSUmIN3Nqa5R-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TnNeL-RazSUmIN3Nqa5R-22" target="TnNeL-RazSUmIN3Nqa5R-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnNeL-RazSUmIN3Nqa5R-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.171;entryY=0.032;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TnNeL-RazSUmIN3Nqa5R-22" target="TnNeL-RazSUmIN3Nqa5R-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnNeL-RazSUmIN3Nqa5R-67" value="Manage bots and instances" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TnNeL-RazSUmIN3Nqa5R-66">
+          <mxGeometry x="-0.2852" y="2" relative="1" as="geometry">
+            <mxPoint x="-41.53" y="-16" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="TnNeL-RazSUmIN3Nqa5R-22" value="Lambdas" style="fillColor=none;strokeColor=#5A6C86;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;" vertex="1" parent="1">
           <mxGeometry x="320" y="200" width="170" height="114" as="geometry" />
@@ -249,6 +262,9 @@
           <mxGeometry x="-0.0277" y="3" relative="1" as="geometry">
             <mxPoint x="92" y="-71.5" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="TnNeL-RazSUmIN3Nqa5R-64" value="&lt;h1 align=&quot;justify&quot;&gt;README&lt;/h1&gt;&lt;p align=&quot;justify&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Project&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;The goal is to allow discord users to create personalized bots using a simple interface. Then the user put his API Key to allow the bot to access Discord and act in server where it is added.&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;Each docker instance can host X bots, when this limit is reached, a new Docker instance is created.&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;Every 2 minutes, each bot edit a line on DynamoDB as heartbeat. If a bot is supposed to be active but shows no heartbeat, a lambda function force it&#39;s activation on a non-full Docker image.&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;When there is too many docker instances for the number of discord bot, the oldest instance is shutdown and the hosted bots are shared between the newest instances.&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Stack&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Front-end : &lt;/b&gt;ReactJS, Redux&lt;/li&gt;&lt;li&gt;&lt;b&gt;Back-end : NodeJS&lt;/b&gt;, Serverless Framework, DiscordJS&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="-48.5" width="310" height="470" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
