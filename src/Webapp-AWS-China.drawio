@@ -1,6 +1,6 @@
-<mxfile modified="2020-11-28T03:31:59.219Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="sVPY-egl45smdMdV2uuG" version="13.10.4" type="github">
+<mxfile modified="2020-11-28T03:36:01.560Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="wTMI5vWVut_MmcfFwh0D" version="13.10.4" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="2275" dy="1218" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="758" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -151,6 +151,63 @@
         </mxCell>
         <mxCell id="j_7Q8GbdNrXEVzg3eeIV-33" value="&lt;b&gt;CodeCommit&lt;/b&gt;" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.codecommit;" vertex="1" parent="1">
           <mxGeometry x="920" y="800" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="j_7Q8GbdNrXEVzg3eeIV-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j_7Q8GbdNrXEVzg3eeIV-42" target="j_7Q8GbdNrXEVzg3eeIV-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="657" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j_7Q8GbdNrXEVzg3eeIV-42" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#4AB29A;gradientDirection=north;fillColor=#116D5B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.polly;" vertex="1" parent="1">
+          <mxGeometry x="730" y="500" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="j_7Q8GbdNrXEVzg3eeIV-43" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;" vertex="1" parent="1">
+          <mxGeometry x="800" y="274" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="j_7Q8GbdNrXEVzg3eeIV-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j_7Q8GbdNrXEVzg3eeIV-17" target="j_7Q8GbdNrXEVzg3eeIV-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="313" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j_7Q8GbdNrXEVzg3eeIV-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j_7Q8GbdNrXEVzg3eeIV-3" target="j_7Q8GbdNrXEVzg3eeIV-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="313" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j_7Q8GbdNrXEVzg3eeIV-55" value="Update / Create&amp;nbsp; / Delete" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="j_7Q8GbdNrXEVzg3eeIV-45">
+          <mxGeometry x="0.4805" relative="1" as="geometry">
+            <mxPoint x="-41.57" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j_7Q8GbdNrXEVzg3eeIV-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j_7Q8GbdNrXEVzg3eeIV-3" target="j_7Q8GbdNrXEVzg3eeIV-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j_7Q8GbdNrXEVzg3eeIV-50" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;" vertex="1" parent="1">
+          <mxGeometry x="790" y="480" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="j_7Q8GbdNrXEVzg3eeIV-51" value="&lt;b&gt;Polly task DB&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="838" y="489" width="82" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="j_7Q8GbdNrXEVzg3eeIV-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="j_7Q8GbdNrXEVzg3eeIV-3" target="j_7Q8GbdNrXEVzg3eeIV-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="809" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j_7Q8GbdNrXEVzg3eeIV-54" value="Check Polly job state" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="j_7Q8GbdNrXEVzg3eeIV-53">
+          <mxGeometry x="-0.1597" y="-1" relative="1" as="geometry">
+            <mxPoint x="48" y="19" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
