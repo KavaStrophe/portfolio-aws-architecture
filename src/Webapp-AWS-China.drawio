@@ -1,10 +1,10 @@
-<mxfile modified="2020-11-28T03:36:54.280Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="QaAChmJms8eptCJiWgG_" version="13.10.4" type="github">
+<mxfile modified="2020-11-28T03:41:42.158Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="PoO2LLQDEUP3hqs_bcU-" version="13.10.4" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="910" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="j_7Q8GbdNrXEVzg3eeIV-1" value="AWS Cloud" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=0;" vertex="1" parent="1">
+        <mxCell id="j_7Q8GbdNrXEVzg3eeIV-1" value="AWS China Cloud" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=0;" vertex="1" parent="1">
           <mxGeometry x="430" y="80" width="620" height="950" as="geometry" />
         </mxCell>
         <mxCell id="j_7Q8GbdNrXEVzg3eeIV-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="j_7Q8GbdNrXEVzg3eeIV-5">
@@ -218,6 +218,9 @@
           <mxGeometry x="-0.1597" y="-1" relative="1" as="geometry">
             <mxPoint x="48" y="19" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="j_7Q8GbdNrXEVzg3eeIV-58" value="&lt;h1&gt;README&lt;/h1&gt;&lt;p align=&quot;justify&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Project&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;The project has been deployed on AWS China that has a lot of differences with AWS Global. (No Cognito user pool, no CodePipeline, etc.)&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;We build an internal OIDC server to provide Tokens to users after login. This token is used to interact with the API through an interface hosted on S3 bucket.&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;The client also needed a voice service generation, we used AWS Polly.&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Stack&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;b&gt;Front-end : &lt;/b&gt;ReactJS, Redux&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;b&gt;Back-end : &lt;/b&gt;NodeJS Vanilla, Serverless Framework&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;b&gt;OIDC :&lt;/b&gt; NodeJS Vanilla, Serverless Framework&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;b&gt;Voice Generation : &lt;/b&gt;Lambda NodeJS, Polly&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;b&gt;Database : &lt;/b&gt;DynamoDB&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="300" height="460" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
