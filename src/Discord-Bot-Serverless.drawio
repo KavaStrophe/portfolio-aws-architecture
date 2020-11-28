@@ -1,9 +1,12 @@
-<mxfile modified="2020-11-28T04:02:27.121Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="Uk5XORe-7awo2ed1elJo" version="13.10.4" type="github">
+<mxfile modified="2020-11-28T04:04:11.376Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="3J4ItuMFIlrdyuNLaETg" version="13.10.4" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="2275" dy="2045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2240" dy="1400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TnNeL-RazSUmIN3Nqa5R-61" value="AWS Cloud" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="-60" width="970" height="690" as="geometry" />
+        </mxCell>
         <mxCell id="TnNeL-RazSUmIN3Nqa5R-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TnNeL-RazSUmIN3Nqa5R-8" target="TnNeL-RazSUmIN3Nqa5R-22">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -22,7 +25,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TnNeL-RazSUmIN3Nqa5R-2" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudfront;" vertex="1" parent="1">
-          <mxGeometry x="210" y="80" width="78" height="78" as="geometry" />
+          <mxGeometry x="60" y="80" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="TnNeL-RazSUmIN3Nqa5R-3" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
           <mxGeometry x="340" y="80" width="78" height="78" as="geometry" />
@@ -30,35 +33,21 @@
         <mxCell id="TnNeL-RazSUmIN3Nqa5R-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TnNeL-RazSUmIN3Nqa5R-4" target="TnNeL-RazSUmIN3Nqa5R-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="160" y="187" />
-              <mxPoint x="160" y="119" />
+              <mxPoint x="30" y="187" />
+              <mxPoint x="30" y="119" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="TnNeL-RazSUmIN3Nqa5R-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TnNeL-RazSUmIN3Nqa5R-4" target="TnNeL-RazSUmIN3Nqa5R-19">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="160" y="187" />
-              <mxPoint x="160" y="257" />
+              <mxPoint x="30" y="187" />
+              <mxPoint x="30" y="257" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TnNeL-RazSUmIN3Nqa5R-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TnNeL-RazSUmIN3Nqa5R-4" target="TnNeL-RazSUmIN3Nqa5R-26">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="160" y="187" />
-              <mxPoint x="160" />
-              <mxPoint x="249" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TnNeL-RazSUmIN3Nqa5R-34" value="Use Discord Credentials for Auth" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TnNeL-RazSUmIN3Nqa5R-33">
-          <mxGeometry x="-0.0277" y="3" relative="1" as="geometry">
-            <mxPoint x="92" y="-71.5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TnNeL-RazSUmIN3Nqa5R-4" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.user;fillColor=#D2D3D3;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="10" y="155" width="45" height="63" as="geometry" />
+          <mxGeometry x="-130" y="155" width="45" height="63" as="geometry" />
         </mxCell>
         <mxCell id="TnNeL-RazSUmIN3Nqa5R-5" value="API Discord" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/free-social-media-set/24/discord-128.png" vertex="1" parent="1">
           <mxGeometry x="430" y="670" width="78" height="78" as="geometry" />
@@ -120,7 +109,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TnNeL-RazSUmIN3Nqa5R-19" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" vertex="1" parent="1">
-          <mxGeometry x="210" y="218" width="78" height="78" as="geometry" />
+          <mxGeometry x="60" y="218" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="TnNeL-RazSUmIN3Nqa5R-20" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" vertex="1" parent="1">
           <mxGeometry x="338" y="245" width="48" height="48" as="geometry" />
@@ -143,7 +132,7 @@
           <mxGeometry x="320" y="200" width="170" height="114" as="geometry" />
         </mxCell>
         <mxCell id="TnNeL-RazSUmIN3Nqa5R-26" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/free-social-media-set/24/discord-128.png" vertex="1" parent="1">
-          <mxGeometry x="205" y="-120" width="88" height="88" as="geometry" />
+          <mxGeometry x="205" y="-180" width="88" height="88" as="geometry" />
         </mxCell>
         <mxCell id="TnNeL-RazSUmIN3Nqa5R-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TnNeL-RazSUmIN3Nqa5R-27" target="TnNeL-RazSUmIN3Nqa5R-26">
           <mxGeometry relative="1" as="geometry">
@@ -165,22 +154,22 @@
         </mxCell>
         <mxCell id="TnNeL-RazSUmIN3Nqa5R-57" value="Webhook : on Pull Request Merged" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TnNeL-RazSUmIN3Nqa5R-48">
           <mxGeometry x="-0.2942" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="12.94" y="-0.06" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TnNeL-RazSUmIN3Nqa5R-40" value="&lt;b&gt;GitHub &lt;/b&gt;: FrontEnd" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-128.png" vertex="1" parent="1">
-          <mxGeometry x="1119" y="-30" width="78" height="78" as="geometry" />
+          <mxGeometry x="1230" y="-30" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="TnNeL-RazSUmIN3Nqa5R-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TnNeL-RazSUmIN3Nqa5R-43" target="TnNeL-RazSUmIN3Nqa5R-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TnNeL-RazSUmIN3Nqa5R-58" value="Webhook : on Pull Request Merged" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TnNeL-RazSUmIN3Nqa5R-50">
           <mxGeometry x="0.2698" y="1" relative="1" as="geometry">
-            <mxPoint x="32.86" y="30" as="offset" />
+            <mxPoint x="32.86" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TnNeL-RazSUmIN3Nqa5R-43" value="&lt;b&gt;GitHub &lt;/b&gt;: Api" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-128.png" vertex="1" parent="1">
-          <mxGeometry x="1120" y="171" width="76" height="76" as="geometry" />
+          <mxGeometry x="1231" y="171" width="76" height="76" as="geometry" />
         </mxCell>
         <mxCell id="TnNeL-RazSUmIN3Nqa5R-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TnNeL-RazSUmIN3Nqa5R-44" target="TnNeL-RazSUmIN3Nqa5R-47">
           <mxGeometry relative="1" as="geometry">
@@ -192,11 +181,11 @@
         </mxCell>
         <mxCell id="TnNeL-RazSUmIN3Nqa5R-59" value="Webhook : on Pull Request Merged" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TnNeL-RazSUmIN3Nqa5R-56">
           <mxGeometry x="0.0935" y="-1" relative="1" as="geometry">
-            <mxPoint x="18.57" y="38" as="offset" />
+            <mxPoint x="8.41" y="1.0600000000000023" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TnNeL-RazSUmIN3Nqa5R-44" value="&lt;b&gt;GitHub &lt;/b&gt;: Docker image" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-128.png" vertex="1" parent="1">
-          <mxGeometry x="1120" y="370" width="76" height="76" as="geometry" />
+          <mxGeometry x="1231" y="370" width="76" height="76" as="geometry" />
         </mxCell>
         <mxCell id="TnNeL-RazSUmIN3Nqa5R-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TnNeL-RazSUmIN3Nqa5R-45" target="TnNeL-RazSUmIN3Nqa5R-3">
           <mxGeometry relative="1" as="geometry">
@@ -245,6 +234,21 @@
         </mxCell>
         <mxCell id="TnNeL-RazSUmIN3Nqa5R-47" value="&lt;b&gt;CodePipeline&lt;/b&gt;" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.codepipeline;" vertex="1" parent="1">
           <mxGeometry x="880" y="370" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="TnNeL-RazSUmIN3Nqa5R-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TnNeL-RazSUmIN3Nqa5R-4" target="TnNeL-RazSUmIN3Nqa5R-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="186.5" as="sourcePoint" />
+            <mxPoint x="249" y="-32" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="30" y="187" />
+              <mxPoint x="30" y="-136" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnNeL-RazSUmIN3Nqa5R-63" value="Use Discord Credentials for Auth" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TnNeL-RazSUmIN3Nqa5R-62">
+          <mxGeometry x="-0.0277" y="3" relative="1" as="geometry">
+            <mxPoint x="92" y="-71.5" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
